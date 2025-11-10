@@ -9,6 +9,10 @@
 
 > Register `@alice` → send to `@bob` → only Bob can decrypt.
 
+## 1-Click Deploy (Docker)
+
+```bash
+docker compose up --build
 ## Features
 - E2EE with per-user public keys
 - On-chain username registry
