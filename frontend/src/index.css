@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply w-full p-3 border rounded mb-3 text-lg;
+}
+.btn {
+  @apply bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 text-lg;
+}
